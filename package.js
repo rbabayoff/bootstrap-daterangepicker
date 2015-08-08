@@ -11,7 +11,7 @@ Package.onUse(function(api) {
 
   //api.use('twbs:bootstrap@3.3.4', ["client"]);
   //api.use('momentjs:moment@2.10.3', ["client"]);
-  api.use(['jquery', 'twbs:bootstrap', 'momentjs:moment'], ["client"]);
+  api.use(['jquery', 'twbs:bootstrap@3.3.5', 'momentjs:moment@2.10.6'], ["client"]);
 
   api.imply([
     'jquery',
