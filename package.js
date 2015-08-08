@@ -17,7 +17,7 @@ Package.onUse(function(api) {
     'jquery',
     'twbs:bootstrap',
     'momentjs:moment'
-  ]);
+  ], 'client');
 
   api.addFiles('daterangepicker.js', ["client"]);
   api.addFiles('daterangepicker.css', ["client"]);
